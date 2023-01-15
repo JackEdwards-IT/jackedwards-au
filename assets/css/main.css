@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+@tailwind base;
+@tailwind components;
+
+body {
+  background-color: #1d1d1d;
+}
+
+@layer base {
+  html {
+    @apply text-white;
+  }
+}
+@tailwind utilities;
