@@ -10,19 +10,19 @@
     "prettier:fix": "prettier --write 'styles/**/*.scss' 'scripts/**/*.{js,jsx,ts,tsx}'"
   },
   "devDependencies": {
-    "@nuxt/image": "^1.0.0-rc.1",
-    "@nuxtjs/tailwindcss": "^6.7.0",
-    "@vite-pwa/nuxt": "^0.1.0",
-    "autoprefixer": "^10.4.14",
-    "nuxt": "3.6.5",
-    "postcss": "8.4.28",
-    "postcss-custom-properties": "13.3.0",
-    "prettier-plugin-tailwindcss": "^0.5.3"
+    "@nuxt/image": "^1.0.0-rc.3",
+    "@nuxtjs/tailwindcss": "6.8.0",
+    "@vite-pwa/nuxt": "^0.1.1",
+    "autoprefixer": "10.4.16",
+    "nuxt": "3.7.4",
+    "postcss": "8.4.31",
+    "postcss-custom-properties": "13.3.2",
+    "prettier-plugin-tailwindcss": "0.5.5"
   },
   "dependencies": {
-    "@vueuse/nuxt": "^10.3.0",
-    "eslint-config-prettier": "^9.0.0",
-    "eslint-plugin-prettier": "^5.0.0",
-    "prettier": "^3.0.2"
+    "@vueuse/nuxt": "10.5.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "5.0.0",
+    "prettier": "3.0.3"
   }
 }

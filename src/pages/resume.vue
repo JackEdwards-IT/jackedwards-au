@@ -27,7 +27,7 @@
         off as a full stack developer working on a Angular/Java stack.
       </p>
       <p class="text-xl pt-5">
-        I'm currently working as a Javascript developer building large single
+        In my latest role I was predominantly a Typescript developer working on large single
         page ecommerce sites utilising Vue/Nuxt 3.
       </p>
       <p class="text-xl pt-5">
