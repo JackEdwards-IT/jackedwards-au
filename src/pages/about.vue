@@ -1,4 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useSeoMeta({
+  description: 'About Jack',
+  ogDescription: 'About Jack',
+});
+</script>
 
 <template>
   <div>

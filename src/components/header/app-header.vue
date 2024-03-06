@@ -7,14 +7,16 @@ const currentRoute = router.currentRoute;
 <template>
   <header>
     <!-- Desktop nav -->
-    <ul v-show="!mobile && currentRoute.fullPath !== '/'">
-      <nav class="flex justify-between pt-1">
-        <NuxtLink to="/"><li>Home</li></NuxtLink>
-        <NuxtLink to="resume"><li>Qualifications</li></NuxtLink>
-        <NuxtLink to="about"><li>About</li></NuxtLink>
-        <NuxtLink to="contact"><li>Contact</li></NuxtLink>
-      </nav>
-    </ul>
+    <menu>
+      <div v-show="!mobile && currentRoute.fullPath !== '/'">
+        <nav class="flex justify-between pt-1">
+          <NuxtLink to="/"><li role="button">Home</li></NuxtLink>
+          <NuxtLink to="resume"><li role="button">Qualifications</li></NuxtLink>
+          <NuxtLink to="about"><li role="button">About</li></NuxtLink>
+          <NuxtLink to="contact"><li role="button">Contact</li></NuxtLink>
+        </nav>
+      </div>
+    </menu>
     <!-- Mobile nav -->
     <HeaderBurgerMenu />
   </header>
@@ -30,10 +32,10 @@ li {
   text-align: center;
   padding-right: 0vw;
   text-decoration: none;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'TitilliumWeb', sans-serif;
   font-weight: 900;
   letter-spacing: 4px;
-  color: #da4167;
+  color: #00d9ff;
   font-size: 20px;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;

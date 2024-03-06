@@ -30,7 +30,7 @@ module.exports = {
       },
 
       fontFamily: {
-        sans: ['Titillium Web', 'sans-serif'],
+        sans: ['TitilliumWeb', 'sans-serif'],
       },
     },
 

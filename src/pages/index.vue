@@ -1,4 +1,11 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useSeoMeta({
+  title: 'Jack Edwards - IT Professional',
+  ogTitle: 'Jack Edwards - IT Professional',
+  description: 'Portfolio and collection or IT related resources',
+  ogDescription: 'Portfolio and collection or IT related resources',
+});
+</script>
 
 <template>
   <div>
@@ -9,38 +16,38 @@
     </h1>
 
     <div class="pt-5">
-      <ul id="navigation">
+      <div id="navigation">
         <NuxtLink to="resume"
-          ><li class="text-md md:text-2xl">Qualifications</li></NuxtLink
+          ><p id="menu" class="text-md md:text-2xl">Qualifications</p></NuxtLink
         >
         <NuxtLink to="about"
-          ><li class="text-md md:text-2xl">About</li></NuxtLink
+          ><p id="menu" class="text-md md:text-2xl">About</p></NuxtLink
         >
         <NuxtLink to="contact"
-          ><li class="text-md md:text-2xl">Contact</li></NuxtLink
+          ><p id="menu" class="text-md md:text-2xl">Contact</p></NuxtLink
         >
-      </ul>
+      </div>
     </div>
   </div>
 </template>
 
 <style scoped>
-li {
+p#menu {
   display: inline;
   text-align: center;
   padding-right: 2vw;
   text-decoration: none;
-  font-family: 'Titillium Web', sans-serif;
+  font-family: 'TitilliumWeb', sans-serif;
   font-weight: 900;
   letter-spacing: 4px;
-  color: #da4167;
+  color: #00d9ff;
   -moz-transition: all 0.2s ease-in;
   -o-transition: all 0.2s ease-in;
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
 
-li:hover,
+p#menu:hover,
 #active-page {
   cursor: pointer;
   color: #35a7ff;

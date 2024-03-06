@@ -46,17 +46,15 @@ const menuOpen = ref(false);
         <div v-show="menuOpen">
           <Transition>
             <nav class="flex pt-6 flex-col">
-              <NuxtLink to="/" @click="menuOpen = false"
-                ><li>Home</li></NuxtLink
-              >
+              <NuxtLink to="/" @click="menuOpen = false"><p id="menu">Home</p></NuxtLink>
               <NuxtLink to="resume" @click="menuOpen = false"
-                ><li>Qualifications</li></NuxtLink
+                ><p id="menu">Qualifications</p></NuxtLink
               >
               <NuxtLink to="about" @click="menuOpen = false"
-                ><li>About</li></NuxtLink
+                ><p id="menu">About</p></NuxtLink
               >
               <NuxtLink to="contact" @click="menuOpen = false"
-                ><li>Contact</li></NuxtLink
+                ><p id="menu">Contact</p></NuxtLink
               >
             </nav>
           </Transition>
@@ -79,10 +77,10 @@ const menuOpen = ref(false);
 }
 
 /* Menu links */
-li {
+p#menu {
   @apply list-none text-2xl pb-5 mx-8;
 }
-li:hover,
+p#menu:hover,
 #active-page {
   cursor: pointer;
   color: #35a7ff;
@@ -92,7 +90,7 @@ li:hover,
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-.router-link-exact-active > li {
+.router-link-exact-active > p#menu {
   opacity: 1;
   text-decoration: none;
   color: #91cfff;

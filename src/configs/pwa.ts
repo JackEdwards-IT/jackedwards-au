@@ -14,10 +14,10 @@ export const pwa: ModuleOptions = {
   injectRegister: "inline",
   includeAssets: [],
   manifest: {
-    name: "UGG",
-    short_name: "UGG",
-    theme_color: "#fff",
-    background_color: "#fff",
+    name: "Jack Edwards - IT Professional",
+    short_name: "Jack Edwards",
+    theme_color: "#1d1d1d",
+    background_color: "#1d1d1d",
     start_url: "/",
     display: "standalone",
     icons: [
@@ -46,7 +46,7 @@ export const pwa: ModuleOptions = {
     clientsClaim: true,
     skipWaiting: true,
     navigateFallback: null,
-    globPatterns: ["**/*.{js,css,html,txt,png,ico,svg}"],
+    globPatterns: ["**/*.{js,css,html,txt,png,ico,svg,ttf}"],
     globIgnores: ["**/node_modules/**/*"],
     cleanupOutdatedCaches: true,
     inlineWorkboxRuntime: true,

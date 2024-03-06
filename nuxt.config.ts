@@ -32,20 +32,59 @@ export default defineNuxtConfig({
   },
 
   // https://vite-pwa-org.netlify.app/guide/#vite-plugin-pwa
-  pwa,
+  pwa: {
+    includeAssets: ['favicon.ico', 'apple-touch-icon.png', 'mask-icon.svg'],
+    manifest: {
+      name: 'Jack Edwards - IT Professional',
+      short_name: 'Jack Edwards',
+      description: 'Portfolio and collection or IT related resources.',
+      theme_color: '#1d1d1d',
+
+      icons: [
+        {
+          "src": "pwa-64x64.png",
+          "sizes": "64x64",
+          "type": "image/png"
+        },
+        {
+          "src": "pwa-192x192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        },
+        {
+          "src": "pwa-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        },
+        {
+          "src": "maskable-icon-512x512.png",
+          "sizes": "512x512",
+          "type": "image/png",
+          "purpose": "maskable"
+        }
+      ]
+    }
+  },
 
   app: {
     baseURL: '/',
     head: {
       titleTemplate: 'Jack Edwards',
       charset: 'utf-16',
-      viewport: 'width=500, initial-scale=1',
+      viewport: 'width=412, initial-scale=1',
       title: 'Jack Edwards - IT Professional',
+      htmlAttrs: {
+        lang: 'en'
+      },
       meta: [
         {
-          name: 'description',
+          name: 'Jack Edwards - IT Professional',
           content: 'Portfolio and collection or IT related resources.',
         },
+        {
+          name: "theme-color",
+          content: '#1d1d1d',
+        }
       ],
     },
   },

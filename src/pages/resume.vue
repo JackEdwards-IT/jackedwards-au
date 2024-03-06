@@ -1,4 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useSeoMeta({
+  description: 'Work history and education',
+  ogDescription: 'Work history and education',
+});
+</script>
 
 <template>
   <div>
@@ -27,8 +32,8 @@
         off as a full stack developer working on a Angular/Java stack.
       </p>
       <p class="text-xl pt-5">
-        In my latest role I was predominantly a Typescript developer working on large single
-        page ecommerce sites utilising Vue/Nuxt 3.
+        In my latest role I was predominantly a Typescript developer working on
+        large single page ecommerce sites utilising Vue/Nuxt 3.
       </p>
       <p class="text-xl pt-5">
         I am eager and motivated to take on new challenges and refine and apply

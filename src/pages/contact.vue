@@ -1,4 +1,9 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+useSeoMeta({
+  description: 'Contact information',
+  ogDescription: 'Contact information',
+});
+</script>
 
 <template>
   <h1 class="mt-3 text-3xl">Contact Me</h1>
