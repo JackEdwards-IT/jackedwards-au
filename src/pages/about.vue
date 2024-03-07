@@ -26,7 +26,7 @@ useSeoMeta({
     </p>
     <LazyNuxtImg
       class="mx-auto pt-2 rounded-md"
-      src="banner.jpg"
+      src="/banner.jpg"
       alt="Picture of hills in the country"
     />
   </div>

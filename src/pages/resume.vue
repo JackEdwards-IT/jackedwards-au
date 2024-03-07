@@ -18,12 +18,13 @@ useSeoMeta({
         <p class="text-xl">Royal Melbourne Institute of Technology</p>
         <p class="text-lg">Minoring in Web Design</p>
       </div>
-
       <NuxtImg
         class="hidden md:block"
-        src="dp-70-cropped.png"
+        src="/dp-70-cropped.png"
+        width="215"
+        height="170"
         alt="Profile picture of Jack."
-      />
+      /> 
     </div>
     <hr class="" />
     <div class="pt-10">

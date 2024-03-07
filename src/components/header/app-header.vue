@@ -10,10 +10,10 @@ const currentRoute = router.currentRoute;
     <menu>
       <div v-show="!mobile && currentRoute.fullPath !== '/'">
         <nav class="flex justify-between pt-1">
-          <NuxtLink to="/"><li role="button">Home</li></NuxtLink>
-          <NuxtLink to="resume"><li role="button">Qualifications</li></NuxtLink>
-          <NuxtLink to="about"><li role="button">About</li></NuxtLink>
-          <NuxtLink to="contact"><li role="button">Contact</li></NuxtLink>
+          <NuxtLink to="/"><li>Home</li></NuxtLink>
+          <NuxtLink to="resume"><li>Qualifications</li></NuxtLink>
+          <NuxtLink to="about"><li>About</li></NuxtLink>
+          <NuxtLink to="contact"><li>Contact</li></NuxtLink>
         </nav>
       </div>
     </menu>
