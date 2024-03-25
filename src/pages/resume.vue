@@ -24,7 +24,8 @@ useSeoMeta({
         width="215"
         height="170"
         alt="Profile picture of Jack."
-      /> 
+        :placeholder="[215, 170]"
+      />
     </div>
     <hr class="" />
     <div class="pt-10">

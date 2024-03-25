@@ -24,10 +24,13 @@ useSeoMeta({
       enjoy gardening, fitness, photography, reading, and working on mechanical
       and IT projects.
     </p>
-    <LazyNuxtImg
+    <NuxtImg
       class="mx-auto pt-2 rounded-md"
       src="/banner.jpg"
+      width="2400"
+      height="486"
       alt="Picture of hills in the country"
+      :placeholder="[2400, 486]"
     />
   </div>
 </template>
