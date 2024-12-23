@@ -2,6 +2,12 @@
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
+## Upgrade Dependencies
+
+Nuxt ```npx nuxi upgrade```
+
+Modules ```npx npm-check-updates -u```
+
 ## Setup
 
 Make sure to install the dependencies:

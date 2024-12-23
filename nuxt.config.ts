@@ -88,5 +88,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+
   srcDir: 'src/',
+  compatibilityDate: "2024-12-24",
 });
