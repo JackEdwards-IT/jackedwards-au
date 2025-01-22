@@ -30,12 +30,17 @@ useSeoMeta({
     <hr class="" />
     <div class="pt-10">
       <p class="text-xl">
-        I have been working as a software developer for over 2 years, starting
+        I have been working as a software developer since 2021, starting
         off as a full stack developer working on a Angular/Java stack.
       </p>
       <p class="text-xl pt-5">
-        In my latest role I was predominantly a Typescript developer working on
-        large single page ecommerce sites utilising Vue/Nuxt 3.
+        I am currently working as a JavaScript/C# developer customising the
+        Microsoft Dynamics CRM platform for a business in the private health
+        insurance sector.
+      </p>
+      <p class="text-xl pt-5">
+        In my previous role I was predominantly a Typescript developer working
+        on large single page ecommerce sites utilising Vue/Nuxt 3.
       </p>
       <p class="text-xl pt-5">
         I am eager and motivated to take on new challenges and refine and apply

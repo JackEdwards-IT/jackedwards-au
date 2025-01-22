@@ -1,9 +1,9 @@
 <script setup lang="ts">
 useSeoMeta({
-  title: 'Jack Edwards - IT Professional',
-  ogTitle: 'Jack Edwards - IT Professional',
-  description: 'Portfolio and collection or IT related resources',
-  ogDescription: 'Portfolio and collection or IT related resources',
+  title: 'Jack Edwards - Software Developer',
+  ogTitle: 'Jack Edwards - Software Developer',
+  description: 'Software Developer based in NSW Australia.',
+  ogDescription: 'Software Developer based in NSW Australia.',
 });
 </script>
 
@@ -12,7 +12,7 @@ useSeoMeta({
     <h1 class="mt-10 text-3xl">Jack Edwards,</h1>
     <h1 class="mt-10 text-3xl">
       <p class="text-red inline">Software developer</p>
-      currently working on frontend tech using Vue/Nuxt 3.
+      currently working in the Microsoft Dynamics Ecosystem.
     </h1>
 
     <div class="pt-5">
