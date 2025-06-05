@@ -1,4 +1,4 @@
-# Nuxt 3 Minimal Starter
+# Jackedwards AU - Nuxt 3 Minimal
 
 Look at the [nuxt 3 documentation](https://v3.nuxtjs.org) to learn more.
 
@@ -13,14 +13,9 @@ Modules ```npx npm-check-updates -u```
 Make sure to install the dependencies:
 
 ```bash
-# yarn
-yarn install
-
 # npm
 npm install
 
-# pnpm
-pnpm install --shamefully-hoist
 ```
 
 ## Development Server
